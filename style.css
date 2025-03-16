@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background-color 1s;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 28px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+.download-btn {
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
